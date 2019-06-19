@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Categories</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>Makeup</string>
+			<key>imageName</key>
+			<string>ic_makeup</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>2</integer>
+			<key>name</key>
+			<string>Skincare</string>
+			<key>imageName</key>
+			<string>ic_skincare</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>3</integer>
+			<key>name</key>
+			<string>Haircare</string>
+			<key>imageName</key>
+			<string>ic_haircare</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>4</integer>
+			<key>name</key>
+			<string>Beauty Tools</string>
+			<key>imageName</key>
+			<string>ic_beautyTools</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>5</integer>
+			<key>name</key>
+			<string>Home Fragnance</string>
+			<key>imageName</key>
+			<string>ic_homeFragnance</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>6</integer>
+			<key>name</key>
+			<string>Gift</string>
+			<key>imageName</key>
+			<string>ic_gift</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<integer>7</integer>
+			<key>name</key>
+			<string>Men</string>
+			<key>imageName</key>
+			<string>ic_men</string>
+		</dict>
+	</array>
+</dict>
+</plist>

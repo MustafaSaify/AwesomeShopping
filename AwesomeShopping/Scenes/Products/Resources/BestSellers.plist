@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BestSellers</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>PRADA</string>
+			<key>imageName</key>
+			<string>ic_product_prada</string>
+			<key>details</key>
+			<string>Candy</string>
+			<key>oldPrice</key>
+			<string>356 SR</string>
+			<key>price</key>
+			<string>320 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Dolce &amp; Gabana S...</string>
+			<key>imageName</key>
+			<string>ic_product_DG</string>
+			<key>details</key>
+			<string>The one and text goes here until it breaks</string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string>356 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>AIGNER</string>
+			<key>imageName</key>
+			<string>ic_product_aigner</string>
+			<key>details</key>
+			<string>N. 1</string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string>356 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>PRADA</string>
+			<key>imageName</key>
+			<string>ic_product_prada</string>
+			<key>details</key>
+			<string>Candy</string>
+			<key>oldPrice</key>
+			<string>356 SR</string>
+			<key>price</key>
+			<string>320 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Dolce &amp; Gabana S...</string>
+			<key>imageName</key>
+			<string>ic_product_DG</string>
+			<key>details</key>
+			<string>The one and text goes here until it breaks</string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string>356 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>AIGNER</string>
+			<key>imageName</key>
+			<string>ic_product_aigner</string>
+			<key>details</key>
+			<string>N. 1</string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string>356 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>PRADA</string>
+			<key>imageName</key>
+			<string>ic_product_prada</string>
+			<key>details</key>
+			<string>Candy</string>
+			<key>oldPrice</key>
+			<string>356 SR</string>
+			<key>price</key>
+			<string>320 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Dolce &amp; Gabana S...</string>
+			<key>imageName</key>
+			<string>ic_product_DG</string>
+			<key>details</key>
+			<string>The one and text goes here until it breaks</string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string>356 SR</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>AIGNER</string>
+			<key>imageName</key>
+			<string>ic_product_aigner</string>
+			<key>details</key>
+			<string>N. 1</string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string>356 SR</string>
+		</dict>
+	</array>
+</dict>
+</plist>
