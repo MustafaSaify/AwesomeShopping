@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProductReviews</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Title for my review</string>
+			<key>text</key>
+			<string>This is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product</string>
+			<key>rating</key>
+			<integer>4</integer>
+			<key>reviewer</key>
+			<string>Username</string>
+			<key>date</key>
+			<string>25.12.2017</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Title for my review</string>
+			<key>text</key>
+			<string>This is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product</string>
+			<key>rating</key>
+			<integer>4</integer>
+			<key>reviewer</key>
+			<string>Username</string>
+			<key>date</key>
+			<string>25.12.2017</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Title for my review</string>
+			<key>text</key>
+			<string>This is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product</string>
+			<key>rating</key>
+			<integer>4</integer>
+			<key>reviewer</key>
+			<string>Username</string>
+			<key>date</key>
+			<string>25.12.2017</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Title for my review</string>
+			<key>text</key>
+			<string>This is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product, this is a sample review for a product</string>
+			<key>rating</key>
+			<integer>4</integer>
+			<key>reviewer</key>
+			<string>Username</string>
+			<key>date</key>
+			<string>25.12.2017</string>
+		</dict>
+	</array>
+</dict>
+</plist>

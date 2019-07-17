@@ -16,9 +16,14 @@ protocol ProductsViewControllerOuput {
     func populateData()
 }
 
+protocol ProductsViewControllerDelegate : class {
+    func productsViewController(_ viewController: ProductsViewController, didSelectedProductWith id: Int)
+}
+
 class ProductsViewController: UIViewController {
     
     var viewModel = ProductsViewModel()
+    weak var delegate: ProductsViewControllerDelegate?
     
     fileprivate var bestSellerSectionIndex = 0
     
@@ -99,10 +104,12 @@ extension ProductsViewController : UITableViewDataSource {
         if indexPath.section == bestSellerSectionIndex {
             let cell: BestSellersTableViewCell = tableView.dequeueReusableCell(indexPath: indexPath)
             cell.bestSellers = bestSellers
+            cell.delegate = self
             return cell
         }
         let cell: ProductsGridTableViewCell = tableView.dequeueReusableCell(indexPath: indexPath)
         cell.items = sections[indexPath.section-1].items
+        cell.delegate = self
         return cell
     }
     
@@ -134,5 +141,19 @@ extension ProductsViewController : CollapsibleTableViewHeaderDelegate {
         let collapsed = sections[section - 1].collapsed
         sections[section - 1].collapsed = !collapsed
         tableView.reloadSections(IndexSet(arrayLiteral: section), with: .automatic)
+    }
+}
+
+extension ProductsViewController :  ProductsGridTableViewCellDelegate {
+    
+    func productsGridCell(cell: ProductsGridTableViewCell, didSelectProductWith id: Int) {
+        delegate?.productsViewController(self, didSelectedProductWith: id)
+    }
+}
+
+extension ProductsViewController : BestSellersTableViewCellDelegate {
+    
+    func bestSellersCell(_ cell: BestSellersTableViewCell, didSelectItemWith id: Int) {
+        delegate?.productsViewController(self, didSelectedProductWith: id)
     }
 }

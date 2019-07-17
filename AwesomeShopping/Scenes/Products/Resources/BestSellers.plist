@@ -5,6 +5,8 @@
 	<key>BestSellers</key>
 	<array>
 		<dict>
+			<key>id</key>
+			<integer>1</integer>
 			<key>title</key>
 			<string>PRADA</string>
 			<key>imageName</key>
@@ -17,6 +19,8 @@
 			<string>320 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>2</integer>
 			<key>title</key>
 			<string>Dolce &amp; Gabana S...</string>
 			<key>imageName</key>
@@ -29,6 +33,8 @@
 			<string>356 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>3</integer>
 			<key>title</key>
 			<string>AIGNER</string>
 			<key>imageName</key>
@@ -41,6 +47,8 @@
 			<string>356 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>4</integer>
 			<key>title</key>
 			<string>PRADA</string>
 			<key>imageName</key>
@@ -53,6 +61,8 @@
 			<string>320 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>5</integer>
 			<key>title</key>
 			<string>Dolce &amp; Gabana S...</string>
 			<key>imageName</key>
@@ -65,6 +75,8 @@
 			<string>356 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>6</integer>
 			<key>title</key>
 			<string>AIGNER</string>
 			<key>imageName</key>
@@ -77,6 +89,8 @@
 			<string>356 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>7</integer>
 			<key>title</key>
 			<string>PRADA</string>
 			<key>imageName</key>
@@ -89,6 +103,8 @@
 			<string>320 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>8</integer>
 			<key>title</key>
 			<string>Dolce &amp; Gabana S...</string>
 			<key>imageName</key>
@@ -101,6 +117,8 @@
 			<string>356 SR</string>
 		</dict>
 		<dict>
+			<key>id</key>
+			<integer>9</integer>
 			<key>title</key>
 			<string>AIGNER</string>
 			<key>imageName</key>

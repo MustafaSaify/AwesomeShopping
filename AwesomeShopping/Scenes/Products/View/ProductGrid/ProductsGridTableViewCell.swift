@@ -8,9 +8,14 @@
 
 import UIKit
 
+protocol ProductsGridTableViewCellDelegate : class {
+    func productsGridCell(cell: ProductsGridTableViewCell, didSelectProductWith id: Int)
+}
+
 class ProductsGridTableViewCell: UITableViewCell {
     
     @IBOutlet weak var collectionView: UICollectionView!
+    weak var delegate: ProductsGridTableViewCellDelegate?
     
     var items: [SectionProduct] = [] {
         didSet {
@@ -51,6 +56,10 @@ extension ProductsGridTableViewCell : UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         return collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: ProductsGridSuplimentaryView.reuseIdentifier, for: indexPath)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        delegate?.productsGridCell(cell: self, didSelectProductWith: items[indexPath.item].id)
     }
     
 }

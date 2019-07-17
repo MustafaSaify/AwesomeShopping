@@ -10,14 +10,10 @@ import Foundation
 import UIKit
 
 struct BestSeller : Decodable {
+    var id: Int
     var title: String
-    
     var details: String?
-    
     var imageName: String?
-    
     var price: String
-    
     var oldPrice: String?
-    
 }

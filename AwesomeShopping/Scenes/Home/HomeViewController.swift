@@ -45,6 +45,12 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         categoriesViewController.delegate = self
+        productsViewController.delegate = self
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.isNavigationBarHidden = true
     }
 }
 
@@ -52,5 +58,11 @@ extension HomeViewController : CategoriesViewControllerDelegate {
     
     func categories(viewController: CategoriesViewController, didSelected category: Category) {
         productsViewController.category = category
+    }
+}
+
+extension HomeViewController : ProductsViewControllerDelegate {
+    func productsViewController(_ viewController: ProductsViewController, didSelectedProductWith id: Int) {
+        performSegue(withIdentifier: "toProductDetails", sender: viewController)
     }
 }

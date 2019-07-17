@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RelatedProducts</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>PACO RABANE</string>
+			<key>imageName</key>
+			<string>ic_product_pacoRabane</string>
+			<key>details</key>
+			<string>DALIA DIVIN LE\nNECTOR D&apos;ARMOR</string>
+			<key>oldPrice</key>
+			<string>389 SR</string>
+			<key>price</key>
+			<string>299 SR</string>
+			<key>isCategory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string></string>
+			<key>imageName</key>
+			<string>ic_product_category1</string>
+			<key>details</key>
+			<string></string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string></string>
+			<key>isCategory</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string></string>
+			<key>imageName</key>
+			<string>ic_product_category2</string>
+			<key>details</key>
+			<string></string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string></string>
+			<key>isCategory</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>PACO RABANE</string>
+			<key>imageName</key>
+			<string>ic_product_pacoRabane2</string>
+			<key>details</key>
+			<string>DALIA DIVIN LE\nNECTOR D&apos;ARMOR</string>
+			<key>oldPrice</key>
+			<string>389 SR</string>
+			<key>price</key>
+			<string>299 SR</string>
+			<key>isCategory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string></string>
+			<key>imageName</key>
+			<string>ic_product_category1</string>
+			<key>details</key>
+			<string></string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string></string>
+			<key>isCategory</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>PACO RABANE</string>
+			<key>imageName</key>
+			<string>ic_product_pacoRabane</string>
+			<key>details</key>
+			<string>DALIA DIVIN LE\nNECTOR D&apos;ARMOR</string>
+			<key>oldPrice</key>
+			<string>389 SR</string>
+			<key>price</key>
+			<string>299 SR</string>
+			<key>isCategory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>PACO RABANE</string>
+			<key>imageName</key>
+			<string>ic_product_pacoRabane2</string>
+			<key>details</key>
+			<string>DALIA DIVIN LE\nNECTOR D&apos;ARMOR</string>
+			<key>oldPrice</key>
+			<string>389 SR</string>
+			<key>price</key>
+			<string>299 SR</string>
+			<key>isCategory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>PACO RABANE</string>
+			<key>imageName</key>
+			<string>ic_product_pacoRabane2</string>
+			<key>details</key>
+			<string>DALIA DIVIN LE\nNECTOR D&apos;ARMOR</string>
+			<key>oldPrice</key>
+			<string>389 SR</string>
+			<key>price</key>
+			<string>299 SR</string>
+			<key>isCategory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>PACO RABANE</string>
+			<key>imageName</key>
+			<string>ic_product_pacoRabane</string>
+			<key>details</key>
+			<string>DALIA DIVIN LE\nNECTOR D&apos;ARMOR</string>
+			<key>oldPrice</key>
+			<string>389 SR</string>
+			<key>price</key>
+			<string>299 SR</string>
+			<key>isCategory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string></string>
+			<key>imageName</key>
+			<string>ic_product_category2</string>
+			<key>details</key>
+			<string></string>
+			<key>oldPrice</key>
+			<string></string>
+			<key>price</key>
+			<string></string>
+			<key>isCategory</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

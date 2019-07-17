@@ -10,36 +10,48 @@
 			<key>items</key>
 			<array>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Pencils</string>
 					<key>imageName</key>
 					<string>ic_product_pencils</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lipstick</string>
 					<key>imageName</key>
 					<string>ic_product_lipstick</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lipgloss</string>
 					<key>imageName</key>
 					<string>ic_product_lipgloss</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lip Balm</string>
 					<key>imageName</key>
 					<string>ic_product_lipbalm</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Treatment</string>
 					<key>imageName</key>
 					<string>ic_product_treatment</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Pallete</string>
 					<key>imageName</key>
@@ -53,36 +65,48 @@
 			<key>items</key>
 			<array>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Pencils</string>
 					<key>imageName</key>
 					<string>ic_product_pencils</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lipstick</string>
 					<key>imageName</key>
 					<string>ic_product_lipstick</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lipgloss</string>
 					<key>imageName</key>
 					<string>ic_product_lipgloss</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lip Balm</string>
 					<key>imageName</key>
 					<string>ic_product_lipbalm</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Treatment</string>
 					<key>imageName</key>
 					<string>ic_product_treatment</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Pallete</string>
 					<key>imageName</key>
@@ -96,36 +120,48 @@
 			<key>items</key>
 			<array>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Pencils</string>
 					<key>imageName</key>
 					<string>ic_product_pencils</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lipstick</string>
 					<key>imageName</key>
 					<string>ic_product_lipstick</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lipgloss</string>
 					<key>imageName</key>
 					<string>ic_product_lipgloss</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Lip Balm</string>
 					<key>imageName</key>
 					<string>ic_product_lipbalm</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Treatment</string>
 					<key>imageName</key>
 					<string>ic_product_treatment</string>
 				</dict>
 				<dict>
+					<key>id</key>
+					<integer>1</integer>
 					<key>name</key>
 					<string>Pallete</string>
 					<key>imageName</key>

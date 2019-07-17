@@ -9,11 +9,17 @@
 import UIKit
 import iCarousel
 
+protocol BestSellersTableViewCellDelegate : class {
+    func bestSellersCell(_ cell: BestSellersTableViewCell, didSelectItemWith id: Int)
+}
+
 class BestSellersTableViewCell: UITableViewCell {
     
     @IBOutlet weak var carousel: iCarousel!
     
     fileprivate var numberOfItemsInCarouselView = 3
+    
+    weak var delegate: BestSellersTableViewCellDelegate?
     
     var bestSellers: [BestSeller] = [] {
         didSet {
@@ -52,6 +58,13 @@ extension BestSellersTableViewCell : iCarouselDataSource {
         let endIndex = min((startIndex + numberOfItemsInCarouselView - 1), bestSellers.count - 1)
         bestSellerListView?.products = Array(bestSellers[startIndex...endIndex])
         return bestSellerListView
+    }
+}
+
+extension BestSellersTableViewCell : iCarouselDelegate {
+    func carousel(_ carousel: iCarousel, didSelectItemAt index: Int) {
+        let item = bestSellers[index]
+        delegate?.bestSellersCell(self, didSelectItemWith: item.id)
     }
 }
 
