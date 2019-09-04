@@ -20,6 +20,7 @@
 		CF19F45822DEC6A800D60C21 /* ProductDetailsSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19F45722DEC6A800D60C21 /* ProductDetailsSectionHeader.swift */; };
 		CF19F45A22DEC6C600D60C21 /* ProductDetailsSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF19F45922DEC6C600D60C21 /* ProductDetailsSectionHeader.xib */; };
 		CF19F45C22DEDA8B00D60C21 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19F45B22DEDA8B00D60C21 /* UIView+Extension.swift */; };
+		CF439C3E2320413400317FE8 /* AwesomeShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439C3D2320413400317FE8 /* AwesomeShoppingTests.swift */; };
 		CF5EA2CA22A2FA5700E5FE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EA2C922A2FA5700E5FE30 /* AppDelegate.swift */; };
 		CF5EA2CC22A2FA5700E5FE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5EA2CB22A2FA5700E5FE30 /* ViewController.swift */; };
 		CF5EA2CF22A2FA5700E5FE30 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5EA2CD22A2FA5700E5FE30 /* Home.storyboard */; };
@@ -65,6 +66,16 @@
 		CFFF7A0522DE279900093464 /* RelatedProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFF7A0422DE279900093464 /* RelatedProductItem.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CF439C402320413400317FE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5EA2BE22A2FA5700E5FE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5EA2C522A2FA5700E5FE30;
+			remoteInfo = AwesomeShopping;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0AD0D4CD44B65261D23916D5 /* Pods-AwesomeShopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeShopping.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeShopping/Pods-AwesomeShopping.debug.xcconfig"; sourceTree = "<group>"; };
 		23D734966C421B4C04CBDBCD /* Pods_AwesomeShopping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeShopping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +92,9 @@
 		CF19F45722DEC6A800D60C21 /* ProductDetailsSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsSectionHeader.swift; sourceTree = "<group>"; };
 		CF19F45922DEC6C600D60C21 /* ProductDetailsSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailsSectionHeader.xib; sourceTree = "<group>"; };
 		CF19F45B22DEDA8B00D60C21 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CF439C3B2320413400317FE8 /* AwesomeShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF439C3D2320413400317FE8 /* AwesomeShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeShoppingTests.swift; sourceTree = "<group>"; };
+		CF439C3F2320413400317FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF5EA2C622A2FA5700E5FE30 /* AwesomeShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5EA2C922A2FA5700E5FE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF5EA2CB22A2FA5700E5FE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +144,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CF439C382320413400317FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF5EA2C322A2FA5700E5FE30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,11 +245,21 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		CF439C3C2320413400317FE8 /* AwesomeShoppingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF439C3D2320413400317FE8 /* AwesomeShoppingTests.swift */,
+				CF439C3F2320413400317FE8 /* Info.plist */,
+			);
+			path = AwesomeShoppingTests;
+			sourceTree = "<group>";
+		};
 		CF5EA2BD22A2FA5600E5FE30 = {
 			isa = PBXGroup;
 			children = (
 				CFEFFDC622BAF911003CC2A0 /* README.md */,
 				CF5EA2C822A2FA5700E5FE30 /* AwesomeShopping */,
+				CF439C3C2320413400317FE8 /* AwesomeShoppingTests */,
 				CF5EA2C722A2FA5700E5FE30 /* Products */,
 				6CE4D1F030204963819EB337 /* Pods */,
 				525374B347D4548AB03BE5FC /* Frameworks */,
@@ -239,6 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				CF5EA2C622A2FA5700E5FE30 /* AwesomeShopping.app */,
+				CF439C3B2320413400317FE8 /* AwesomeShoppingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -451,6 +483,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CF439C3A2320413400317FE8 /* AwesomeShoppingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF439C442320413400317FE8 /* Build configuration list for PBXNativeTarget "AwesomeShoppingTests" */;
+			buildPhases = (
+				CF439C372320413400317FE8 /* Sources */,
+				CF439C382320413400317FE8 /* Frameworks */,
+				CF439C392320413400317FE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF439C412320413400317FE8 /* PBXTargetDependency */,
+			);
+			name = AwesomeShoppingTests;
+			productName = AwesomeShoppingTests;
+			productReference = CF439C3B2320413400317FE8 /* AwesomeShoppingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CF5EA2C522A2FA5700E5FE30 /* AwesomeShopping */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF5EA2D822A2FA5800E5FE30 /* Build configuration list for PBXNativeTarget "AwesomeShopping" */;
@@ -480,6 +530,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Mustafa Saify";
 				TargetAttributes = {
+					CF439C3A2320413400317FE8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CF5EA2C522A2FA5700E5FE30;
+					};
 					CF5EA2C522A2FA5700E5FE30 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -499,11 +553,19 @@
 			projectRoot = "";
 			targets = (
 				CF5EA2C522A2FA5700E5FE30 /* AwesomeShopping */,
+				CF439C3A2320413400317FE8 /* AwesomeShoppingTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CF439C392320413400317FE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF5EA2C422A2FA5700E5FE30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,6 +638,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CF439C372320413400317FE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF439C3E2320413400317FE8 /* AwesomeShoppingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CF5EA2C222A2FA5700E5FE30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -625,6 +695,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		CF439C412320413400317FE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5EA2C522A2FA5700E5FE30 /* AwesomeShopping */;
+			targetProxy = CF439C402320413400317FE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		CF5EA2CD22A2FA5700E5FE30 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -645,6 +723,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CF439C422320413400317FE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AwesomeShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mustafa-Saify.AwesomeShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeShopping.app/AwesomeShopping";
+			};
+			name = Debug;
+		};
+		CF439C432320413400317FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AwesomeShoppingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Mustafa-Saify.AwesomeShoppingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AwesomeShopping.app/AwesomeShopping";
+			};
+			name = Release;
+		};
 		CF5EA2D622A2FA5800E5FE30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -800,6 +916,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CF439C442320413400317FE8 /* Build configuration list for PBXNativeTarget "AwesomeShoppingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF439C422320413400317FE8 /* Debug */,
+				CF439C432320413400317FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CF5EA2C122A2FA5700E5FE30 /* Build configuration list for PBXProject "AwesomeShopping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
