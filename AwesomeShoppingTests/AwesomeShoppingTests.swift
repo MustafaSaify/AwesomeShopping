@@ -22,6 +22,10 @@ class AwesomeShoppingTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    func testProductDetails() {
+        
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
